@@ -1,0 +1,107 @@
+[INFO] Building metadata by scanning C:\Users\dmitrby\My Drive\Research\25 Oshrit-Rats\python4\data_full ...
+Loaded 1655 samples  (25 rats)
+
+########################################
+EVAL FOLD 1/5
+########################################
+Loaded model: C:\Users\dmitrby\My Drive\Research\25 Oshrit-Rats\python4\models\unet_resnet34_fold1.pt
+Evaluating fold 1:   0%|          | 0/42 [00:00<?, ?it/s]Evaluating fold 1:   2%|2         | 1/42 [00:02<01:23,  2.03s/it]Evaluating fold 1:   5%|4         | 2/42 [00:03<01:16,  1.91s/it]Evaluating fold 1:   7%|7         | 3/42 [00:05<01:12,  1.87s/it]Evaluating fold 1:  10%|9         | 4/42 [00:07<01:10,  1.85s/it]Evaluating fold 1:  12%|#1        | 5/42 [00:09<01:08,  1.86s/it]Evaluating fold 1:  14%|#4        | 6/42 [00:11<01:07,  1.87s/it]Evaluating fold 1:  17%|#6        | 7/42 [00:13<01:08,  1.96s/it]Evaluating fold 1:  19%|#9        | 8/42 [00:15<01:05,  1.94s/it]Evaluating fold 1:  21%|##1       | 9/42 [00:17<01:03,  1.91s/it]Evaluating fold 1:  24%|##3       | 10/42 [00:19<01:01,  1.91s/it]Evaluating fold 1:  26%|##6       | 11/42 [00:20<00:58,  1.90s/it]Evaluating fold 1:  29%|##8       | 12/42 [00:22<00:57,  1.91s/it]Evaluating fold 1:  31%|###       | 13/42 [00:24<00:55,  1.90s/it]Evaluating fold 1:  33%|###3      | 14/42 [00:27<00:57,  2.04s/it]Evaluating fold 1:  36%|###5      | 15/42 [00:29<00:53,  1.99s/it]Evaluating fold 1:  38%|###8      | 16/42 [00:31<00:53,  2.07s/it]Evaluating fold 1:  40%|####      | 17/42 [00:33<00:52,  2.10s/it]Evaluating fold 1:  43%|####2     | 18/42 [00:35<00:51,  2.13s/it]Evaluating fold 1:  45%|####5     | 19/42 [00:38<00:53,  2.34s/it]Evaluating fold 1:  48%|####7     | 20/42 [00:40<00:50,  2.28s/it]Evaluating fold 1:  50%|#####     | 21/42 [00:42<00:47,  2.25s/it]Evaluating fold 1:  52%|#####2    | 22/42 [00:45<00:45,  2.28s/it]Evaluating fold 1:  55%|#####4    | 23/42 [00:47<00:42,  2.24s/it]Evaluating fold 1:  57%|#####7    | 24/42 [00:49<00:39,  2.22s/it]Evaluating fold 1:  60%|#####9    | 25/42 [00:52<00:41,  2.44s/it]Evaluating fold 1:  62%|######1   | 26/42 [00:54<00:37,  2.37s/it]Evaluating fold 1:  64%|######4   | 27/42 [00:56<00:34,  2.31s/it]Evaluating fold 1:  67%|######6   | 28/42 [00:58<00:31,  2.27s/it]Evaluating fold 1:  69%|######9   | 29/42 [01:01<00:29,  2.30s/it]Evaluating fold 1:  71%|#######1  | 30/42 [01:04<00:29,  2.48s/it]Evaluating fold 1:  74%|#######3  | 31/42 [01:06<00:26,  2.38s/it]Evaluating fold 1:  76%|#######6  | 32/42 [01:08<00:23,  2.32s/it]Evaluating fold 1:  79%|#######8  | 33/42 [01:10<00:21,  2.34s/it]Evaluating fold 1:  81%|########  | 34/42 [01:13<00:18,  2.29s/it]Evaluating fold 1:  83%|########3 | 35/42 [01:15<00:15,  2.26s/it]Evaluating fold 1:  86%|########5 | 36/42 [01:18<00:14,  2.50s/it]Evaluating fold 1:  88%|########8 | 37/42 [01:20<00:11,  2.39s/it]Evaluating fold 1:  90%|######### | 38/42 [01:22<00:09,  2.41s/it]Evaluating fold 1:  93%|#########2| 39/42 [01:25<00:07,  2.34s/it]Evaluating fold 1:  95%|#########5| 40/42 [01:27<00:04,  2.28s/it]Evaluating fold 1:  98%|#########7| 41/42 [01:30<00:02,  2.54s/it]Evaluating fold 1: 100%|##########| 42/42 [01:31<00:00,  2.20s/it]Evaluating fold 1: 100%|##########| 42/42 [01:31<00:00,  2.19s/it]
+
+Fold 1 Test Results  (n=333):
+  mIoU: 0.8961
+  Background: 0.9930
+  Head: 0.9094
+  Body: 0.9516
+  Tail: 0.7305
+  Saved test_metrics_1.json, confusion_matrix_1.png and per_image_iou_1.csv
+
+########################################
+EVAL FOLD 2/5
+########################################
+Loaded model: C:\Users\dmitrby\My Drive\Research\25 Oshrit-Rats\python4\models\unet_resnet34_fold2.pt
+Evaluating fold 2:   0%|          | 0/42 [00:00<?, ?it/s]Evaluating fold 2:   2%|2         | 1/42 [00:02<01:26,  2.10s/it]Evaluating fold 2:   5%|4         | 2/42 [00:04<01:25,  2.14s/it]Evaluating fold 2:   7%|7         | 3/42 [00:06<01:24,  2.16s/it]Evaluating fold 2:  10%|9         | 4/42 [00:08<01:22,  2.17s/it]Evaluating fold 2:  12%|#1        | 5/42 [00:11<01:23,  2.25s/it]Evaluating fold 2:  14%|#4        | 6/42 [00:13<01:20,  2.24s/it]Evaluating fold 2:  17%|#6        | 7/42 [00:15<01:17,  2.22s/it]Evaluating fold 2:  19%|#9        | 8/42 [00:17<01:15,  2.22s/it]Evaluating fold 2:  21%|##1       | 9/42 [00:19<01:12,  2.19s/it]Evaluating fold 2:  24%|##3       | 10/42 [00:22<01:10,  2.21s/it]Evaluating fold 2:  26%|##6       | 11/42 [00:24<01:07,  2.18s/it]Evaluating fold 2:  29%|##8       | 12/42 [00:26<01:09,  2.31s/it]Evaluating fold 2:  31%|###       | 13/42 [00:28<01:05,  2.25s/it]Evaluating fold 2:  33%|###3      | 14/42 [00:31<01:03,  2.26s/it]Evaluating fold 2:  36%|###5      | 15/42 [00:33<01:00,  2.23s/it]Evaluating fold 2:  38%|###8      | 16/42 [00:35<00:58,  2.24s/it]Evaluating fold 2:  40%|####      | 17/42 [00:37<00:55,  2.21s/it]Evaluating fold 2:  43%|####2     | 18/42 [00:39<00:52,  2.20s/it]Evaluating fold 2:  45%|####5     | 19/42 [00:42<00:54,  2.36s/it]Evaluating fold 2:  48%|####7     | 20/42 [00:44<00:50,  2.29s/it]Evaluating fold 2:  50%|#####     | 21/42 [00:46<00:47,  2.25s/it]Evaluating fold 2:  52%|#####2    | 22/42 [00:49<00:45,  2.28s/it]Evaluating fold 2:  55%|#####4    | 23/42 [00:51<00:42,  2.24s/it]Evaluating fold 2:  57%|#####7    | 24/42 [00:53<00:39,  2.21s/it]Evaluating fold 2:  60%|#####9    | 25/42 [00:55<00:38,  2.25s/it]Evaluating fold 2:  62%|######1   | 26/42 [00:58<00:38,  2.41s/it]Evaluating fold 2:  64%|######4   | 27/42 [01:00<00:34,  2.33s/it]Evaluating fold 2:  67%|######6   | 28/42 [01:02<00:31,  2.28s/it]Evaluating fold 2:  69%|######9   | 29/42 [01:05<00:29,  2.31s/it]Evaluating fold 2:  71%|#######1  | 30/42 [01:07<00:27,  2.26s/it]Evaluating fold 2:  74%|#######3  | 31/42 [01:09<00:24,  2.23s/it]Evaluating fold 2:  76%|#######6  | 32/42 [01:11<00:22,  2.21s/it]Evaluating fold 2:  79%|#######8  | 33/42 [01:14<00:22,  2.49s/it]Evaluating fold 2:  81%|########  | 34/42 [01:17<00:19,  2.39s/it]Evaluating fold 2:  83%|########3 | 35/42 [01:19<00:16,  2.33s/it]Evaluating fold 2:  86%|########5 | 36/42 [01:21<00:13,  2.28s/it]Evaluating fold 2:  88%|########8 | 37/42 [01:23<00:11,  2.24s/it]Evaluating fold 2:  90%|######### | 38/42 [01:26<00:09,  2.29s/it]Evaluating fold 2:  93%|#########2| 39/42 [01:28<00:06,  2.26s/it]Evaluating fold 2:  95%|#########5| 40/42 [01:31<00:04,  2.50s/it]Evaluating fold 2:  98%|#########7| 41/42 [01:33<00:02,  2.39s/it]Evaluating fold 2: 100%|##########| 42/42 [01:35<00:00,  2.16s/it]Evaluating fold 2: 100%|##########| 42/42 [01:35<00:00,  2.26s/it]
+
+Fold 2 Test Results  (n=334):
+  mIoU: 0.9029
+  Background: 0.9934
+  Head: 0.9075
+  Body: 0.9521
+  Tail: 0.7588
+  Saved test_metrics_2.json, confusion_matrix_2.png and per_image_iou_2.csv
+
+########################################
+EVAL FOLD 3/5
+########################################
+Loaded model: C:\Users\dmitrby\My Drive\Research\25 Oshrit-Rats\python4\models\unet_resnet34_fold3.pt
+Evaluating fold 3:   0%|          | 0/42 [00:00<?, ?it/s]Evaluating fold 3:   2%|2         | 1/42 [00:01<01:13,  1.80s/it]Evaluating fold 3:   5%|4         | 2/42 [00:03<01:15,  1.90s/it]Evaluating fold 3:   7%|7         | 3/42 [00:06<01:22,  2.11s/it]Evaluating fold 3:  10%|9         | 4/42 [00:08<01:21,  2.15s/it]Evaluating fold 3:  12%|#1        | 5/42 [00:10<01:20,  2.18s/it]Evaluating fold 3:  14%|#4        | 6/42 [00:12<01:18,  2.19s/it]Evaluating fold 3:  17%|#6        | 7/42 [00:14<01:16,  2.19s/it]Evaluating fold 3:  19%|#9        | 8/42 [00:17<01:17,  2.28s/it]Evaluating fold 3:  21%|##1       | 9/42 [00:19<01:13,  2.24s/it]Evaluating fold 3:  24%|##3       | 10/42 [00:21<01:11,  2.24s/it]Evaluating fold 3:  26%|##6       | 11/42 [00:23<01:08,  2.22s/it]Evaluating fold 3:  29%|##8       | 12/42 [00:26<01:06,  2.23s/it]Evaluating fold 3:  31%|###       | 13/42 [00:28<01:07,  2.32s/it]Evaluating fold 3:  33%|###3      | 14/42 [00:31<01:04,  2.30s/it]Evaluating fold 3:  36%|###5      | 15/42 [00:33<01:01,  2.26s/it]Evaluating fold 3:  38%|###8      | 16/42 [00:35<00:58,  2.26s/it]Evaluating fold 3:  40%|####      | 17/42 [00:37<00:55,  2.22s/it]Evaluating fold 3:  43%|####2     | 18/42 [00:40<00:56,  2.34s/it]Evaluating fold 3:  45%|####5     | 19/42 [00:42<00:53,  2.33s/it]Evaluating fold 3:  48%|####7     | 20/42 [00:44<00:50,  2.28s/it]Evaluating fold 3:  50%|#####     | 21/42 [00:46<00:46,  2.23s/it]Evaluating fold 3:  52%|#####2    | 22/42 [00:49<00:45,  2.26s/it]Evaluating fold 3:  55%|#####4    | 23/42 [00:51<00:45,  2.39s/it]Evaluating fold 3:  57%|#####7    | 24/42 [00:54<00:42,  2.34s/it]Evaluating fold 3:  60%|#####9    | 25/42 [00:56<00:39,  2.33s/it]Evaluating fold 3:  62%|######1   | 26/42 [00:58<00:36,  2.28s/it]Evaluating fold 3:  64%|######4   | 27/42 [01:00<00:33,  2.25s/it]Evaluating fold 3:  67%|######6   | 28/42 [01:03<00:34,  2.44s/it]Evaluating fold 3:  69%|######9   | 29/42 [01:05<00:31,  2.42s/it]Evaluating fold 3:  71%|#######1  | 30/42 [01:08<00:28,  2.33s/it]Evaluating fold 3:  74%|#######3  | 31/42 [01:10<00:25,  2.29s/it]Evaluating fold 3:  76%|#######6  | 32/42 [01:12<00:22,  2.25s/it]Evaluating fold 3:  79%|#######8  | 33/42 [01:14<00:20,  2.30s/it]Evaluating fold 3:  81%|########  | 34/42 [01:16<00:18,  2.25s/it]Evaluating fold 3:  83%|########3 | 35/42 [01:19<00:17,  2.48s/it]Evaluating fold 3:  86%|########5 | 36/42 [01:22<00:14,  2.39s/it]Evaluating fold 3:  88%|########8 | 37/42 [01:24<00:11,  2.32s/it]Evaluating fold 3:  90%|######### | 38/42 [01:26<00:09,  2.36s/it]Evaluating fold 3:  93%|#########2| 39/42 [01:28<00:06,  2.30s/it]Evaluating fold 3:  95%|#########5| 40/42 [01:31<00:04,  2.26s/it]Evaluating fold 3:  98%|#########7| 41/42 [01:34<00:02,  2.51s/it]Evaluating fold 3: 100%|##########| 42/42 [01:35<00:00,  2.00s/it]Evaluating fold 3: 100%|##########| 42/42 [01:35<00:00,  2.26s/it]
+
+Fold 3 Test Results  (n=331):
+  mIoU: 0.8962
+  Background: 0.9934
+  Head: 0.9096
+  Body: 0.9531
+  Tail: 0.7289
+  Saved test_metrics_3.json, confusion_matrix_3.png and per_image_iou_3.csv
+
+########################################
+EVAL FOLD 4/5
+########################################
+Loaded model: C:\Users\dmitrby\My Drive\Research\25 Oshrit-Rats\python4\models\unet_resnet34_fold4.pt
+Evaluating fold 4:   0%|          | 0/41 [00:00<?, ?it/s]Evaluating fold 4:   2%|2         | 1/41 [00:01<01:18,  1.97s/it]Evaluating fold 4:   5%|4         | 2/41 [00:04<01:21,  2.08s/it]Evaluating fold 4:   7%|7         | 3/41 [00:06<01:20,  2.11s/it]Evaluating fold 4:  10%|9         | 4/41 [00:08<01:18,  2.11s/it]Evaluating fold 4:  12%|#2        | 5/41 [00:10<01:19,  2.21s/it]Evaluating fold 4:  15%|#4        | 6/41 [00:12<01:16,  2.19s/it]Evaluating fold 4:  17%|#7        | 7/41 [00:15<01:14,  2.18s/it]Evaluating fold 4:  20%|#9        | 8/41 [00:17<01:11,  2.17s/it]Evaluating fold 4:  22%|##1       | 9/41 [00:19<01:08,  2.15s/it]Evaluating fold 4:  24%|##4       | 10/41 [00:21<01:06,  2.16s/it]Evaluating fold 4:  27%|##6       | 11/41 [00:23<01:07,  2.25s/it]Evaluating fold 4:  29%|##9       | 12/41 [00:26<01:05,  2.24s/it]Evaluating fold 4:  32%|###1      | 13/41 [00:28<01:01,  2.20s/it]Evaluating fold 4:  34%|###4      | 14/41 [00:30<00:59,  2.19s/it]Evaluating fold 4:  37%|###6      | 15/41 [00:32<00:56,  2.16s/it]Evaluating fold 4:  39%|###9      | 16/41 [00:35<00:57,  2.31s/it]Evaluating fold 4:  41%|####1     | 17/41 [00:37<00:53,  2.24s/it]Evaluating fold 4:  44%|####3     | 18/41 [00:39<00:50,  2.21s/it]Evaluating fold 4:  46%|####6     | 19/41 [00:41<00:48,  2.21s/it]Evaluating fold 4:  49%|####8     | 20/41 [00:43<00:45,  2.17s/it]Evaluating fold 4:  51%|#####1    | 21/41 [00:45<00:42,  2.15s/it]Evaluating fold 4:  54%|#####3    | 22/41 [00:48<00:44,  2.33s/it]Evaluating fold 4:  56%|#####6    | 23/41 [00:50<00:40,  2.26s/it]Evaluating fold 4:  59%|#####8    | 24/41 [00:52<00:37,  2.22s/it]Evaluating fold 4:  61%|######    | 25/41 [00:55<00:35,  2.24s/it]Evaluating fold 4:  63%|######3   | 26/41 [00:57<00:32,  2.20s/it]Evaluating fold 4:  66%|######5   | 27/41 [00:59<00:30,  2.17s/it]Evaluating fold 4:  68%|######8   | 28/41 [01:02<00:30,  2.35s/it]Evaluating fold 4:  71%|#######   | 29/41 [01:04<00:28,  2.34s/it]Evaluating fold 4:  73%|#######3  | 30/41 [01:06<00:24,  2.26s/it]Evaluating fold 4:  76%|#######5  | 31/41 [01:08<00:21,  2.20s/it]Evaluating fold 4:  78%|#######8  | 32/41 [01:10<00:19,  2.16s/it]Evaluating fold 4:  80%|########  | 33/41 [01:12<00:17,  2.21s/it]Evaluating fold 4:  83%|########2 | 34/41 [01:15<00:15,  2.18s/it]Evaluating fold 4:  85%|########5 | 35/41 [01:17<00:14,  2.39s/it]Evaluating fold 4:  88%|########7 | 36/41 [01:19<00:11,  2.31s/it]Evaluating fold 4:  90%|######### | 37/41 [01:22<00:08,  2.24s/it]Evaluating fold 4:  93%|#########2| 38/41 [01:24<00:06,  2.28s/it]Evaluating fold 4:  95%|#########5| 39/41 [01:26<00:04,  2.23s/it]Evaluating fold 4:  98%|#########7| 40/41 [01:28<00:02,  2.19s/it]Evaluating fold 4: 100%|##########| 41/41 [01:30<00:00,  2.08s/it]Evaluating fold 4: 100%|##########| 41/41 [01:30<00:00,  2.21s/it]
+
+Fold 4 Test Results  (n=327):
+  mIoU: 0.8915
+  Background: 0.9931
+  Head: 0.9114
+  Body: 0.9532
+  Tail: 0.7082
+  Saved test_metrics_4.json, confusion_matrix_4.png and per_image_iou_4.csv
+
+########################################
+EVAL FOLD 5/5
+########################################
+Loaded model: C:\Users\dmitrby\My Drive\Research\25 Oshrit-Rats\python4\models\unet_resnet34_fold5.pt
+Evaluating fold 5:   0%|          | 0/42 [00:00<?, ?it/s]Evaluating fold 5:   2%|2         | 1/42 [00:01<01:17,  1.88s/it]Evaluating fold 5:   5%|4         | 2/42 [00:03<01:13,  1.83s/it]Evaluating fold 5:   7%|7         | 3/42 [00:05<01:13,  1.89s/it]Evaluating fold 5:  10%|9         | 4/42 [00:07<01:15,  1.99s/it]Evaluating fold 5:  12%|#1        | 5/42 [00:09<01:15,  2.04s/it]Evaluating fold 5:  14%|#4        | 6/42 [00:12<01:14,  2.08s/it]Evaluating fold 5:  17%|#6        | 7/42 [00:14<01:16,  2.18s/it]Evaluating fold 5:  19%|#9        | 8/42 [00:16<01:14,  2.20s/it]Evaluating fold 5:  21%|##1       | 9/42 [00:18<01:11,  2.16s/it]Evaluating fold 5:  24%|##3       | 10/42 [00:20<01:09,  2.16s/it]Evaluating fold 5:  26%|##6       | 11/42 [00:23<01:06,  2.15s/it]Evaluating fold 5:  29%|##8       | 12/42 [00:25<01:04,  2.16s/it]Evaluating fold 5:  31%|###       | 13/42 [00:27<01:01,  2.14s/it]Evaluating fold 5:  33%|###3      | 14/42 [00:29<01:03,  2.26s/it]Evaluating fold 5:  36%|###5      | 15/42 [00:31<00:59,  2.21s/it]Evaluating fold 5:  38%|###8      | 16/42 [00:34<00:57,  2.22s/it]Evaluating fold 5:  40%|####      | 17/42 [00:36<00:54,  2.18s/it]Evaluating fold 5:  43%|####2     | 18/42 [00:38<00:51,  2.15s/it]Evaluating fold 5:  45%|####5     | 19/42 [00:40<00:49,  2.17s/it]Evaluating fold 5:  48%|####7     | 20/42 [00:42<00:47,  2.15s/it]Evaluating fold 5:  50%|#####     | 21/42 [00:45<00:47,  2.28s/it]Evaluating fold 5:  52%|#####2    | 22/42 [00:47<00:45,  2.28s/it]Evaluating fold 5:  55%|#####4    | 23/42 [00:49<00:42,  2.22s/it]Evaluating fold 5:  57%|#####7    | 24/42 [00:51<00:39,  2.18s/it]Evaluating fold 5:  60%|#####9    | 25/42 [00:54<00:37,  2.22s/it]Evaluating fold 5:  62%|######1   | 26/42 [00:56<00:34,  2.18s/it]Evaluating fold 5:  64%|######4   | 27/42 [00:58<00:32,  2.15s/it]Evaluating fold 5:  67%|######6   | 28/42 [01:00<00:32,  2.33s/it]Evaluating fold 5:  69%|######9   | 29/42 [01:03<00:30,  2.34s/it]Evaluating fold 5:  71%|#######1  | 30/42 [01:05<00:27,  2.27s/it]Evaluating fold 5:  74%|#######3  | 31/42 [01:07<00:24,  2.22s/it]Evaluating fold 5:  76%|#######6  | 32/42 [01:09<00:21,  2.18s/it]Evaluating fold 5:  79%|#######8  | 33/42 [01:11<00:19,  2.21s/it]Evaluating fold 5:  81%|########  | 34/42 [01:13<00:17,  2.18s/it]Evaluating fold 5:  83%|########3 | 35/42 [01:16<00:16,  2.38s/it]Evaluating fold 5:  86%|########5 | 36/42 [01:18<00:13,  2.30s/it]Evaluating fold 5:  88%|########8 | 37/42 [01:21<00:11,  2.25s/it]Evaluating fold 5:  90%|######### | 38/42 [01:23<00:09,  2.28s/it]Evaluating fold 5:  93%|#########2| 39/42 [01:25<00:06,  2.23s/it]Evaluating fold 5:  95%|#########5| 40/42 [01:27<00:04,  2.19s/it]Evaluating fold 5:  98%|#########7| 41/42 [01:29<00:02,  2.16s/it]Evaluating fold 5: 100%|##########| 42/42 [01:30<00:00,  1.67s/it]Evaluating fold 5: 100%|##########| 42/42 [01:30<00:00,  2.15s/it]
+
+Fold 5 Test Results  (n=330):
+  mIoU: 0.8862
+  Background: 0.9932
+  Head: 0.9065
+  Body: 0.9537
+  Tail: 0.6914
+  Saved test_metrics_5.json, confusion_matrix_5.png and per_image_iou_5.csv
+
+Fold     n     mIoU Background      Head      Body      Tail
+   1   333   0.8961   0.9930    0.9094    0.9516    0.7305
+   2   334   0.9029   0.9934    0.9075    0.9521    0.7588
+   3   331   0.8962   0.9934    0.9096    0.9531    0.7289
+   4   327   0.8915   0.9931    0.9114    0.9532    0.7082
+   5   330   0.8862   0.9932    0.9065    0.9537    0.6914
+
+Mean +/- std  (median) across folds:
+     test_miou: 0.8946  +/- 0.0062   (median 0.8961)
+  iou_background: 0.9932  +/- 0.0002   (median 0.9932)
+      iou_head: 0.9089  +/- 0.0019   (median 0.9094)
+      iou_body: 0.9527  +/- 0.0009   (median 0.9531)
+      iou_tail: 0.7235  +/- 0.0254   (median 0.7289)
+
+Aggregate (from summed confusion matrix):
+  mIoU: 0.8947
+    Background: 0.9932
+          Head: 0.9088
+          Body: 0.9527
+          Tail: 0.7242
+
+Wrote: C:\Users\dmitrby\My Drive\Research\25 Oshrit-Rats\python4\segmentation_unet_runs\metrics\aggregate_test_metrics.json
+Wrote: C:\Users\dmitrby\My Drive\Research\25 Oshrit-Rats\python4\segmentation_unet_runs\graphs\aggregate_confusion_matrix.png
+Wrote: C:\Users\dmitrby\My Drive\Research\25 Oshrit-Rats\python4\segmentation_unet_runs\metrics\summary_kfolds.csv
+
+Wrote C:\Users\dmitrby\My Drive\Research\25 Oshrit-Rats\python4\segmentation_unet_runs\metrics\per_image_iou.csv  (1655 rows)
+
+=== Worst 5 test images by per-image mIoU ===
+ fold   rat  frame  image_miou  iou_background  iou_head  iou_body  iou_tail
+    2 Rat24    126      0.5711          0.9808    0.0000    0.9626    0.3411
+    5 Rat21    106      0.5817          0.9782    0.3241    0.9029    0.1215
+    4  Rat4     16      0.6133          0.9662    0.6693    0.8177    0.0000
+    1 Rat25     32      0.6198          0.9609    0.7336    0.7849    0.0000
+    2 Rat17     99      0.6207          0.9299    0.7687    0.5938    0.1901
