@@ -22,6 +22,8 @@ python code/data_sample/smoke_test.py --all      # every bundled frame
 Headline 4-panel figure (input | GT overlay | predicted overlay |
 prediction mask) is saved to `data_sample/smoke_test_output.png`.
 
+![Smoke-test output panel](../../data_sample/smoke_test_output.png)
+
 Exit codes:
 - `0` -- success;
 - `2` -- checkpoint missing at `models/unet_resnet34_fold2.pt`

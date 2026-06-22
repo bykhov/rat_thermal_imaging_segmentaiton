@@ -38,5 +38,9 @@ code/
     5.  Predicted Overlay (thermal image blended with predicted mask)
     Visuals are saved to `segmentation_unet_runs/graphs/worst_visualizations/`.
 
+    ![Worst-frame diagnostic panel: thermal, ground-truth mask, ground-truth overlay, predicted mask, predicted overlay](../segmentation_unet_runs/graphs/worst_visualizations/01_Rat24_frame126_fold2.png)
+
+    *Example 5-panel diagnostic for the worst-performing frame.*
+
 
 *   **[data_sample/](data_sample/)**: Contains lightweight test scripts (`smoke_test.py` and `make_overlay.py`) designed specifically for offline smoke-testing against a small subset of the dataset. For more information, see [data_sample/README.md](data_sample/README.md).

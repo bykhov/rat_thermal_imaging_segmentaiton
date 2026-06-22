@@ -32,10 +32,14 @@ data_full/
 
 ## File Formats
 
+The figures below are drawn from the bundled `data_sample/` (`Rat11`, frame 1).
+
 ### Thermal images (`Thermal Imaging/Thermal_N.png`)
 - Format: PNG or JPEG, uint8 RGB, lossy, ~74 KB/frame
 - Resolution: 480 x 640 px
 - Visualization of the temperature matrix using the Jet colormap (blue = cold, red = hot)
+
+![Jet-colormap thermal rendering](../data_sample/Rat11/Thermal%20Imaging/Thermal_1.png)
 
 ### Temperature matrices (`CSV/Thermal_N_CSV.csv`)
 - `CSV/Thermal_<n>_CSV.csv` -- raw radiometric **temperature matrix**
@@ -64,6 +68,11 @@ data_full/
   stream = np.fromfile(str(path), np.uint8)
   mask = cv2.imdecode(stream, cv2.IMREAD_UNCHANGED)  # shape (480, 640), dtype uint8
   ```
+
+![Colorized 4-class mask](../data_sample/Rat11/Ground%20Truth%20Mask%20(color)/Thermal_1.png)
+
+*Colorized rendering of the single-channel label mask (Head = red, Body = green, Tail = blue);
+the raw `Mask/` PNG stores discrete class values and is not directly human-viewable.*
 
 If only need temperatures + masks, than ignore `Thermal Imaging/`
 

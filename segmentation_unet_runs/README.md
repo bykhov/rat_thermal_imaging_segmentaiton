@@ -24,3 +24,15 @@ segmentation_unet_runs/
       └── worst_visualizations/       # 5-panel failure mode plots for the worst N frames
           └── {rank}_{rat}_{frame}_fold{fold}.png
 ```
+
+---
+
+## Example outputs
+
+![Aggregate normalized confusion matrix](graphs/aggregate_confusion_matrix.png)
+
+*Aggregate normalized confusion matrix across the 5 folds.*
+
+![Worst-frame diagnostic panel](graphs/worst_visualizations/01_Rat24_frame126_fold2.png)
+
+*Worst-performing frame: thermal, ground-truth mask, ground-truth overlay, predicted mask, predicted overlay.*

@@ -14,6 +14,10 @@ Fold 2 is bundled because it has the highest validation mIoU among the
 5-fold CV runs. Per-class IoU and validation mIoU on its held-out test
 rats are reported in the paper's *Technical Validation* section.
 
+![Aggregate normalized confusion matrix across the 5 folds](../segmentation_unet_runs/graphs/aggregate_confusion_matrix.png)
+
+*Aggregate normalized confusion matrix across the 5-fold cross-validation.*
+
 
 
 

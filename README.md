@@ -11,6 +11,10 @@ segmentation pipeline used for technical validation.
   - a single-channel 4-class `uint8` mask (PNG), and 
   - a Jet-colormap thermal rendering (PNG/JPEG)
 
+![U-Net smoke-test output: input, ground-truth overlay, predicted overlay, and predicted mask](data_sample/smoke_test_output.png)
+
+*Bundled smoke-test output (input | ground-truth overlay | predicted overlay | predicted mask).*
+
 ## Repository layout
 
 Below are the primary directories in this repository. Click the links to view the dedicated `README.md` for each section:
@@ -29,6 +33,13 @@ Each `data_full/RatN/` directory contains parallel `CSV/`, `Mask/`, and `Thermal
 folders paired by a common frame index `N`. Loading conventions are documented in
 [`data_full/README.md`](data_full/README.md). A two-rat subset is bundled under
 `data_sample/` so the pipeline can be exercised without downloading the full archive.
+
+Example frame (`Rat11`, frame 1): Jet-colormap thermal rendering, the colorized 4-class
+mask, and the two blended together.
+
+| Thermal rendering | Mask (colorized) | Overlay |
+|-------------------|------------------|---------|
+| ![Thermal rendering](data_sample/Rat11/Thermal%20Imaging/Thermal_1.png) | ![Colorized mask](data_sample/Rat11/Ground%20Truth%20Mask%20(color)/Thermal_1.png) | ![Overlay](data_sample/Rat11/Ground%20Truth%20Overlay/Thermal_1.png) |
 
 ## Quickstart
 
