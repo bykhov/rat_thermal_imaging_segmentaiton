@@ -8,7 +8,7 @@ regimes.
 
 The full dataset (~3.4 GB, 25 rats, 1,655 frames) includes segmented anatomical regions (head, body, tail) across 25 rat subjects.
 
-The full corpus is hosted on Figshare: **`https://doi.org/<FIGSHARE-DOI>`** (placeholder).
+The full corpus is hosted on [Figshare](https://doi.org/10.6084/m9.figshare.32309781).
 
 ---
 
